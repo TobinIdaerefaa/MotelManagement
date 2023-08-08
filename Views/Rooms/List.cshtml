@@ -1,0 +1,35 @@
+﻿@model List<MotelManagement.Models.Room>;
+<html>
+<head>
+	<link rel="stylesheet" href="~/css/tables.css" />
+</head>
+
+<body>
+
+	<h1>Rooms</h1>
+	<table class="mainTablelayout">
+		<tr>
+			<th>Id</th>
+			<th>Type</th>
+			<th>Beds Number</th>
+			<th>Size</th>
+			<th>Amount(per night)</th>
+			<th></th>
+		</tr>
+		@foreach (var room in Model)
+		{
+			<tr>
+				<td>@room.Id</td>
+				<td>@room.Type</td>
+				<td>@room.BedCount</td>
+				<td>@room.Size.Lenght x @room.Size.Width x @room.Size.Height</td>
+				<td>₦@room.Amount</td>
+				<td>
+					<a href="~/rooms/details/@room.Id">view details</a>
+				</td>
+			</tr>
+		}
+
+	</table>
+</body>
+</html>

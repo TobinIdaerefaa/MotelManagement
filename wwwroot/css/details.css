@@ -1,0 +1,64 @@
+﻿h1, h2, h3, p, span, body {
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding:40px;
+    background-color:#eee;
+}
+.mainTitle{
+    font-weight:normal;
+    color:#666;
+    font-size:22px;
+}
+.topDetailHolder {
+    width: 70%;
+    border: 0px solid #333;
+    margin-top: 30px;
+}
+
+.roomTitleCost {
+    float: right;
+    font-weight: bold;
+    font-size: 22px;
+    color: #333;
+}
+
+.roomTitle {
+    font-weight: bold;
+    font-size: 26px;
+    color: #333;
+}
+
+.roomType {
+    font-size: 16px;
+    color: #999;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.roomTitle span {
+    font-weight: bold;
+    font-size: 12px;
+    display: inline-block;
+    background-color: #444;
+    color: #fff;
+    padding: 3px 10px 3px 10px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+
+.roomDetailHolder{
+    width:60%;
+    min-height:200px;
+    background-color:#fff;
+    margin-top:30px;
+}
+.roomDetailHolder_title{
+    padding:10px 20px 10px 20px;
+    color:#444;
+    border-bottom:2px solid #eee;
+    font-size:18px;
+    font-weight:normal;
+}

@@ -1,0 +1,13 @@
+﻿h1, h2, h3, p, span { padding:0; margin:0;
+}
+
+.mainTablelayout {
+    width: 100%;
+    text-align: left;
+    border-collapse:collapse;
+}
+
+.mainTablelayout th, .mainTablelayout td {
+    padding:10px;
+    border-bottom:1px solid #ccc;
+}
